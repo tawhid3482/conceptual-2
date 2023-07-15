@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: gray;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-style: italic;
+    gap: 15px;
+}
+
+.baner-container {
+    background-image: url("../image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
