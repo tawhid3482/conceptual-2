@@ -30,3 +30,80 @@
     display: flex;
     align-items: center;
 }
+
+.span{
+    color: orangered;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.pera{
+    width: 52%;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+}
+.btn{
+    padding: 12px 18px ;
+    border: none;
+   
+}
+.btn-1{
+    background-color: orangered;
+    color: #fff;
+}
+.hide{
+    display:none;
+}
+.service-container{
+    margin-top: 22px;
+    background-image: url("../image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+}
+.service-title{
+    font-size: 35px;
+    
+}
+.service-pera{
+    font-size:17px;
+    color: #fff;
+    margin: auto, 0;
+
+}
+
+@media screen and (max-width:576px) {
+    /* header-section */
+    .header-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .header-menu{
+      padding-top: 10px;
+        text-align: left;
+        color: #fff;
+        font-size: 18px;   
+    }
+        /* baner-section */
+        .baner-container{
+            width: 100%;
+        
+        }
+        .title{
+            font-size: 35px;
+            
+        }
+    .pera{
+        width: 70%;
+        font-size: 16px;
+    }
+    .btn{
+        padding: 8px 14px;
+    }
+}
